@@ -1,12 +1,12 @@
 {
     "kind": "Template",
-    "apiVersion": "v1",
+    "apiVersion": "template.openshift.io/v1",
     "metadata": {
         "annotations": {
             "iconClass": "icon-rh-openjdk",
             "tags": "java",
             "version": "1.4.17",
-            "openshift.io/display-name": "OpenJDK",
+            "openshift.io/display-name": "OpenJDK example application",
             "openshift.io/provider-display-name": "Red Hat, Inc.",
             "description": "An example Java application using OpenJDK. For more information about using this template, see https://github.com/jboss-openshift/application-templates.",
             "template.openshift.io/long-description": "This template defines resources needed to develop Red Hat OpenJDK Java based application.",
