@@ -6,5 +6,5 @@
 # ==============================================================================
 
 function jvm_specific_diagnostics() {
-    echo "-XX:NativeMemoryTracking=summary -XX:+PrintGC -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UnlockDiagnosticVMOptions"
+    echo "-XX:NativeMemoryTracking=summary -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+PrintGCTimeStamps -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics -verbose:gc"
 }

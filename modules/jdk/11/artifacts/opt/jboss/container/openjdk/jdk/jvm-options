@@ -6,5 +6,5 @@
 # ==============================================================================
 
 function jvm_specific_diagnostics() {
-    echo "-Xlog:gc::utctime -XX:NativeMemoryTracking=summary"
+    echo "-Xlog:gc::utctime -XX:NativeMemoryTracking=summary -XX:+UnlockDiagnosticVMOptions -XX:+PrintNMTStatistics -verbose:gc"
 }
